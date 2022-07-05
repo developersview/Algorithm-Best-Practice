@@ -48,10 +48,10 @@
 ![image](https://github.com/developersview/Algorithm-Best-Practice/blob/master/_Images/selectionsort.png)
 
 | Insertion Sort                                                                      | Selection Sort                                                                                |
-| ----------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------- |
+| ----------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------- | --- |
 | Inserts the value in the presorted array to sort the set of values in the array.    | Finds the minimum / maximum number from the list and sort it in ascending / descending order. |
-| It is a stable sorting algorithm.                                                   | It is an unstable sorting algorithm.                                                          |
-| The best-case time complexity is O(N) when the array is already in ascending order. | There is no best case the time complexity is O(N2) in all cases.                              |
+| It is a stable sorting algorithm.                                                   | It is an unstable sorting algorithm.                                                          |     |
+| The best-case time complexity is O(N) when the array is already in ascending order. | There is no best case the time complexity is O(N2) in all cases.                              |     |
 
 | The number of comparison operations performed in this sorting algorithm is less than the swapping performed. | The number of comparison operations performed in this sorting algorithm is more than the swapping performed. |
 | It is more efficient than the Selection sort. | It is less efficient than the Insertion sort. |
