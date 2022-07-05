@@ -47,5 +47,6 @@
 
 ![image](https://github.com/developersview/Algorithm-Best-Practice/blob/master/_Images/selectionsort.png)
 
-| Insertion Sort | Selection Sort |
-| -------------- | -------------- |
+| Insertion Sort                                                                   | Selection Sort                                                                                |
+| -------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------- |
+| Inserts the value in the presorted array to sort the set of values in the array. | Finds the minimum / maximum number from the list and sort it in ascending / descending order. |
