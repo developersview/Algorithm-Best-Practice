@@ -56,3 +56,21 @@
 | It is more efficient than the Selection sort.                                                                                 | It is less efficient than the Insertion sort.                                                                                                                                                                                                                        |
 | Here the element is known beforehand, and we search for the correct position to place them.                                   | The location where to put the element is previously known we search for the element to insert at that position.                                                                                                                                                      |
 | The insertion sort is used when: The array is has a small number of elements, There are only a few elements left to be sorted | The selection sort is used when A small list is to be sorted, The cost of swapping does not matter, Checking of all the elements is compulsory, Cost of writing to memory matters like in flash memory (number of Swaps is O(n) as compared to O(n2) of bubble sort) |
+
+## Merge Sort
+
+> The Merge Sort algorithm is a sorting algorithm that is considered as an example of the divide and conquer strategy. So, in this algorithm, the array is initially divided into two equal halves and then they are combined in a sorted manner. We can think of it as a recursive algorithm that continuously splits the array in half until it cannot be further divided. This means that if the array becomes empty or has only one element left, the dividing will stop, i.e. it is the base case to stop the recursion. If the array has multiple elements, we split the array into halves and recursively invoke the merge sort on each of the halves. Finally, when both the halves are sorted, the merge operation is applied. Merge operation is the process of taking two smaller sorted arrays and combining them to eventually make a larger one.
+
+- Time Complexity : For Best, Worst and Average - O(n\*log n)
+- Illustration:
+
+![image](https://github.com/developersview/Algorithm-Best-Practice/blob/master/_Images/Merge-Sort.png)
+
+#### Algorithm
+
+- Declare left variable to 0 and right variable to n-1
+- Find mid by medium formula. mid = (left+right)/2
+- Call merge sort on (left,mid)
+- Call merge sort on (mid+1,rear)
+- Continue till left is less than right
+- Then call merge function to perform merge sort.
