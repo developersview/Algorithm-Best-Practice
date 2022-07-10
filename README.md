@@ -74,3 +74,17 @@
 - Call merge sort on (mid+1,rear)
 - Continue till left is less than right
 - Then call merge function to perform merge sort.
+
+## Quick Sort
+
+> QuickSort is a Divide and Conquer algorithm. It picks an element as pivot and partitions the given array around the picked pivot. There are many different versions of quickSort that pick pivot in different ways.
+
+- Always pick first element as pivot.
+- Always pick last element as pivot (implemented below)
+- Pick a random element as pivot.
+- Pick median as pivot.
+
+- Time Complexity : For Worst case - O(n2) and for Best and Average - O(n\*log n)
+- Illustration:
+
+![image](https://github.com/developersview/Algorithm-Best-Practice/blob/master/_Images/QuickSort.png)
